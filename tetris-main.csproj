@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FD070C09-81CA-4C4F-9BFD-558B3DA039E7}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>tetris_main</RootNamespace>
+    <AssemblyName>tetris-main</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Gruntfile.js" />
+    <Content Include="media\anatoli.jpg" />
+    <Content Include="scripts\tetris\jquiDlg.js" />
+    <Content Include="scripts\tetris\panelElementView.js" />
+    <Content Include="scripts\lib\almond\almond.js" />
+    <Content Include="scripts\lib\backbone\backbone.min.map" />
+    <Content Include="scripts\lib\canjs\can.custom.js" />
+    <Content Include="scripts\lib\jqueryui\jquery-ui.js" />
+    <Content Include="scripts\lib\jquery\jquery-2.1.4.min.map" />
+    <Content Include="scripts\lib\require\require.js" />
+    <Content Include="scripts\lib\require\text.js" />
+    <Content Include="scripts\lib\underscore\underscore.min.map" />
+    <Content Include="package.json" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Index.html" />
+    <Content Include="scripts\lib\backbone\backbone.js" />
+    <Content Include="scripts\lib\backbone\backbone.min.js" />
+    <None Include="scripts\lib\jquery\jquery-2.1.4.intellisense.js" />
+    <Content Include="scripts\lib\jquery\jquery-2.1.4.js" />
+    <Content Include="scripts\lib\jquery\jquery-2.1.4.min.js" />
+    <Content Include="scripts\lib\underscore\underscore.js" />
+    <Content Include="scripts\lib\underscore\underscore.min.js" />
+    <Content Include="scripts\tetris\constants.js" />
+    <Content Include="scripts\tetris\panelView.js" />
+    <Content Include="scripts\tetris\factory.js" />
+    <Content Include="scripts\tetris\brick.js" />
+    <Content Include="scripts\tetris\bricks.js" />
+    <Content Include="scripts\tetris\game.js" />
+    <Content Include="scripts\tetris\pile.js" />
+    <Content Include="scripts\tetris\pileView.js" />
+    <Content Include="scripts\tetris\point.js" />
+    <Content Include="scripts\tetris\shape.js" />
+    <Content Include="scripts\tetris\shapeView.js" />
+    <Content Include="scripts\tetris\main.js" />
+    <Content Include="scripts\tetris\brickSmall.js" />
+    <Content Include="scripts\tetris\templates\aboutDlg.html" />
+    <Content Include="scripts\tetris\templates\gameOverDlg.html" />
+    <Content Include="scripts\tetris\templates\settingsDlg.html" />
+    <Content Include="scripts\tetris\layouter.js" />
+    <Content Include="scripts\tetris\timer.js" />
+    <Content Include="scripts\tetris\utils.js" />
+    <Content Include="styles\glyphicons\glyphicons-196-circle-info.png" />
+    <Content Include="styles\glyphicons\glyphicons-211-left-arrow.png" />
+    <Content Include="styles\glyphicons\glyphicons-212-right-arrow.png" />
+    <Content Include="styles\glyphicons\glyphicons-213-down-arrow.png" />
+    <Content Include="styles\glyphicons\glyphicons-281-settings.png" />
+    <Content Include="styles\glyphicons\glyphicons-86-repeat.png" />
+    <Content Include="styles\smoothness\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="styles\smoothness\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="styles\smoothness\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="styles\smoothness\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="styles\smoothness\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="styles\smoothness\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="styles\smoothness\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="styles\smoothness\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="styles\smoothness\images\ui-icons_222222_256x240.png" />
+    <Content Include="styles\smoothness\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="styles\smoothness\images\ui-icons_454545_256x240.png" />
+    <Content Include="styles\smoothness\images\ui-icons_888888_256x240.png" />
+    <Content Include="styles\smoothness\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="styles\smoothness\jquery-ui.css" />
+    <Content Include="styles\smoothness\theme.css" />
+    <Content Include="styles\tetris.css" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>54324</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:54324/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

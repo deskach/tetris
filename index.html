@@ -4,12 +4,17 @@
 <head>
     <title>Tetris</title>
 
-    <link rel="stylesheet" href="styles/tetris-min.css">
+    <!-- build:css styles/tetris-min.css -->
+    <link href="styles/smoothness/jquery-ui.css" rel="stylesheet" />
+    <link href="styles/tetris.css" rel="stylesheet" />
+    <!-- /build -->
 </head>
 <body>
     <div id="content" class="content">
     </div>
 
-    <script src="scripts/tetris-min.js"></script>
+    <!-- build:js scripts/tetris-min.js -->
+    <script type="text/javascript" data-main="scripts/tetris/main" src="scripts/lib/require/require.js"></script>
+    <!-- /build -->
 </body>
 </html>

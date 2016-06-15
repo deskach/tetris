@@ -1,0 +1,67 @@
+﻿@media (max-width: 767px) {
+    .dialog_window {
+        font-size: large;
+    }
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+.content {
+    width: 99%;
+    height: 99%;
+    /*top: 2em;*/
+    /*border: 1px solid red;*/
+    position: fixed;
+}
+
+.tts-pile {
+    position: absolute;
+    /*left: 1px;
+    top: 1px;*/
+    border: 1px solid green;
+}
+
+.tts-shape, .tts-brick, .tts-pile-item {
+    position: absolute;
+}
+
+.tts-brick-shadowed {
+    position: absolute;
+    -moz-box-shadow: 3px 3px 3px #535252;
+    -webkit-box-shadow: 3px 3px 3px #535252;
+    box-shadow: 3px 3px 3px #535252;
+}
+
+.tts-game-panel {
+    position: absolute;
+}
+
+.tts-game-header {
+    padding: 0px;
+}
+
+.tts-game-element {
+    position: absolute;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+    width: 40px;
+    height: 40px;
+
+    float: left;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.tts-game-element:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,6 @@
+C:\Users\Dzianis\Source\Workspaces\ValidatorLibrary\tetris-main\tetris-main\bin\tetris-main.dll.config
+C:\Users\Dzianis\Source\Workspaces\ValidatorLibrary\tetris-main\tetris-main\bin\tetris-main.dll
+C:\Users\Dzianis\Source\Workspaces\ValidatorLibrary\tetris-main\tetris-main\bin\tetris-main.pdb
+C:\Users\Dzianis\Source\Workspaces\ValidatorLibrary\tetris-main\tetris-main\obj\Debug\tetris-main.dll
+C:\Users\Dzianis\Source\Workspaces\ValidatorLibrary\tetris-main\tetris-main\obj\Debug\tetris-main.pdb
+C:\Users\Dzianis\Source\Workspaces\ValidatorLibrary\tetris-main\tetris-main\obj\Debug\tetris-main.csprojResolveAssemblyReference.cache
